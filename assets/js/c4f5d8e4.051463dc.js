@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreenfield_docs=self.webpackChunkgreenfield_docs||[]).push([[4195],{62841:(e,n,d)=>{d.r(n),d.d(n,{default:()=>l});var r=d(67294),c=d(16550);function l(){return r.createElement(c.l_,{to:"/bnbgreenfield/docs/guide/home"})}}}]);
