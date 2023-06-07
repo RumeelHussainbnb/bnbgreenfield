@@ -9,7 +9,7 @@ const config = {
   title: "BNB Greenfield",
   tagline: "Dinosaurs are cool",
   url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/bnbgreenfield-docs/",
+  baseUrl: "/bnbgreenfield/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "RumeelHussainbnb", // Usually your GitHub org/user name.
-  projectName: "bnbgreenfield-docs", // Usually your repo name.
+  projectName: "bnbgreenfield", // Usually your repo name.
 
   presets: [
     [
