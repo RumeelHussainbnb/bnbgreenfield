@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreenfield_docs=self.webpackChunkgreenfield_docs||[]).push([[8517],{17010:e=>{e.exports=JSON.parse('{"permalink":"/bnbgreenfield/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
