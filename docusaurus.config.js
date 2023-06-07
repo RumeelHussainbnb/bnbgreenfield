@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "BNB Greenfield",
-  tagline: "Dinosaurs are cool",
+  tagline: "Decentralized Data Storage and Economy",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/bnbgreenfield/",
   onBrokenLinks: "throw",
@@ -29,7 +29,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/RumeelHussainbnb/bnbgreenfield-docs",
+            "https://github.com/RumeelHussainbnb/bnbgreenfield",
           docLayoutComponent: "@theme/DocPage",
           docItemComponent: "@theme/ApiItem" // Derived from docusaurus-theme-openapi
         },
@@ -98,7 +98,7 @@ const config = {
             to: "/docs/faq/greenfield-faqs"
           },
           {
-            href: 'https://github.com/RumeelHussainbnb/bnbgreenfield-docs',
+            href: 'https://github.com/RumeelHussainbnb/bnbgreenfield',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
