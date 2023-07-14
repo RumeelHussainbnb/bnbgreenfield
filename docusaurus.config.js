@@ -44,14 +44,32 @@ const config = {
       })
     ]
   ],
+  themes: ['@markprompt/docusaurus-theme-search', "docusaurus-theme-openapi-docs"],
+
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig & import('@markprompt/docusaurus-theme-search').ThemeConfig} */
     ({
       docs: {
         sidebar: {
           hideable: true
         }
+      },
+      markprompt: {
+        // Set the project key here, on in a `.env` file. You can obtain
+        // the project key in the Markprompt dashboard, under
+        // project settings.
+        projectKey: '4WCECyB9L6gYJbSuvfvQ3zwG5aMRzLN6',
+        trigger: { floating: true },
+        references: {
+          getHref: (reference) => reference.file?.path?.replace(/\.[^.]+$/, ''),
+          getLabel: (reference) => {
+            return reference.meta?.leadHeading?.value || reference.file?.title;
+          },
+        },
+        search: {
+          enabled: true,
+        },
       },
       navbar: {
         title: "BNB Greenfield",
@@ -194,8 +212,6 @@ const config = {
       }
     ]
   ],
-
-  themes: ["docusaurus-theme-openapi-docs"]
 };
 
 module.exports = config;
