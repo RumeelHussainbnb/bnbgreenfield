@@ -60,15 +60,26 @@ const config = {
         // the project key in the Markprompt dashboard, under
         // project settings.
         projectKey: '4WCECyB9L6gYJbSuvfvQ3zwG5aMRzLN6',
+        prompt: {
+          label: 'Ask me anything…',
+          placeholder: 'Ask me anything…',
+          cta: 'Ask Docs AI…',
+          tabLabel: 'Ask BNB Chain AI Bot',
+        },
+        search: {
+          cta: 'Search docs…',
+          enabled: true,
+          tabLabel: 'Search the Docs',
+        },
+        title: {
+          text: 'Ask me anything…',
+        },
         trigger: { floating: true },
         references: {
           getHref: (reference) => reference.file?.path?.replace(/\.[^.]+$/, ''),
           getLabel: (reference) => {
             return reference.meta?.leadHeading?.value || reference.file?.title;
           },
-        },
-        search: {
-          enabled: true,
         },
       },
       navbar: {
