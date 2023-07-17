@@ -1710,24 +1710,46 @@
   resolved "https://registry.npmjs.org/@markprompt/core/-/core-0.8.2.tgz"
   integrity sha512-uyRscPQvcrD+63/o8jSrr4s1/ClILlpYHVpTz6W7bnP3d1t0tB4G8S/TVlvanPOfh1v4mweIfygXANtncBTkyw==
 
-"@markprompt/css@^0.8.0", "@markprompt/css@^0.8.1":
+"@markprompt/css@^0.8.1":
   version "0.8.1"
   resolved "https://registry.npmjs.org/@markprompt/css/-/css-0.8.1.tgz"
   integrity sha512-aDSFBGf4Ln+oYOJc2CV9cOMvyXGX+NqOhC3w+yggmTB1hBJhKw71+OEFOZ4k7QpENmsCyqocKZlXmbMxWrLZ3w==
 
-"@markprompt/docusaurus-theme-search@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.npmjs.org/@markprompt/docusaurus-theme-search/-/docusaurus-theme-search-0.7.0.tgz"
-  integrity sha512-zPJwREmFo3Kmw/Fa6bor+ELGIBiYO5kw2HBJMr9cj9jNyyDOXdi9ayAhTvVmBuAG0wYuUneaveEe8dam6rFVqQ==
+"@markprompt/css@^0.9.4":
+  version "0.9.4"
+  resolved "https://registry.npmjs.org/@markprompt/css/-/css-0.9.4.tgz"
+  integrity sha512-9yo6FXFrPPr7n2tX6pJFZOTiKSetrf8AJ6+mb4RZuw1lLg1C9alhLNVpRdaDNLnBveAc5mzCWXFY+JEGfYtEmA==
+
+"@markprompt/docusaurus-theme-search@^0.7.9":
+  version "0.7.9"
+  resolved "https://registry.npmjs.org/@markprompt/docusaurus-theme-search/-/docusaurus-theme-search-0.7.9.tgz"
+  integrity sha512-s4ENTQ9uwF+6ZIdESFUPmYoZ9ECDf3c5Je3Qb7/y/TKw4Wtr0ZQfTgJqTfl311PQ+xFyuhqx7w+QrgUOGxGlEw==
   dependencies:
     "@docusaurus/types" "^2.0.0"
-    "@markprompt/css" "^0.8.0"
-    "@markprompt/react" "0.14.0"
+    "@markprompt/css" "^0.9.4"
+    "@markprompt/react" "0.15.8"
 
 "@markprompt/react@0.14.0":
   version "0.14.0"
   resolved "https://registry.npmjs.org/@markprompt/react/-/react-0.14.0.tgz"
   integrity sha512-cIHkzeZ8d/T6/PpXGCXzKDrT8fR5C5xnARpsiuayPsX4TSfcVG2/TKPI/sy3djUxBZup13lwLRT/7eiP/mtgnA==
+  dependencies:
+    "@markprompt/core" "^0.8.0"
+    "@radix-ui/react-accessible-icon" "^1.0.3"
+    "@radix-ui/react-dialog" "^1.0.4"
+    "@radix-ui/react-visually-hidden" "^1.0.3"
+    "@react-spring/web" "^9.7.2"
+    clsx "^1.2.1"
+    emittery "^1.0.1"
+    p-debounce "^4.0.0"
+    react-markdown "^8.0.7"
+    react-merge-refs "^2.0.2"
+    remark-gfm "^3.0.1"
+
+"@markprompt/react@0.15.8":
+  version "0.15.8"
+  resolved "https://registry.npmjs.org/@markprompt/react/-/react-0.15.8.tgz"
+  integrity sha512-oYwgtXKDjsTvUbZDwwg90cCCtGMrC+ywGdKuFgPts5FuvykUykANUS5BP6qjcx7FsNDfYHmNpNRLvfLRbNrDig==
   dependencies:
     "@markprompt/core" "^0.8.0"
     "@radix-ui/react-accessible-icon" "^1.0.3"
