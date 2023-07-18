@@ -56,30 +56,26 @@ const config = {
         }
       },
       markprompt: {
-        // Set the project key here, on in a `.env` file. You can obtain
-        // the project key in the Markprompt dashboard, under
-        // project settings.
         projectKey: '4WCECyB9L6gYJbSuvfvQ3zwG5aMRzLN6',
         prompt: {
           label: 'Ask me anything…',
           placeholder: 'Ask me anything…',
           cta: 'Ask Docs AI…',
-          tabLabel: 'Ask BNB Chain AI Bot',
+          tabLabel: 'Ask BNB Chain Bot',
         },
         search: {
           cta: 'Search docs…',
           enabled: true,
           tabLabel: 'Search the Docs',
+          provider: {
+            name: 'algolia',
+            apiKey: 'dbc11ec6638f9c767ef6ed2856871f58',
+            appId: '3LF005YNGZ',
+            indexName: 'bnbchain',
+          },
         },
         title: {
           text: 'Ask me anything…',
-        },
-        trigger: { floating: true },
-        references: {
-          getHref: (reference) => reference.file?.path?.replace(/\.[^.]+$/, ''),
-          getLabel: (reference) => {
-            return reference.meta?.leadHeading?.value || reference.file?.title;
-          },
         },
       },
       navbar: {
